@@ -1,0 +1,33 @@
+.titleofgame {
+  @apply mt-9  text-2xl md:text-5xl lg:text-6xl xl:text-7xl text-center text-fuchsia-950;
+}
+.choose-game {
+  @apply flex flex-col sm:flex-row gap-10 mt-10  justify-center pl-3 pr-3;
+}
+.choice-button {
+  @apply text-xl p-2 text-fuchsia-900 shadow-xl border-2 border-fuchsia-900 rounded-full hover:bg-fuchsia-900 hover:text-white;
+}
+.players {
+  @apply flex flex-row ml-5 mt-9 h-9  w-72 sm-200:justify-center;
+}
+.player {
+  @apply w-1/2 text-lg font-bold text-stone-300 border-b-4 border-dashed border-b-stone-300 pb-1;
+}
+.player-x {
+  @apply text-emerald-300 border-b-4 border-dashed border-b-emerald-300;
+}
+.player-0 {
+  @apply text-purple-400 border-b-4 border-dashed border-b-purple-400;
+}
+
+.game-wrapper {
+  @apply flex flex-row flex-wrap w-300 h-300 ml-4 md:text-5xl lg:text-6xl xl:text-7xl;
+}
+
+.iswinnericon {
+  @apply w-1/2 h-36 text-fuchsia-950;
+}
+
+.resetbtn {
+  @apply sm-200:pl-40 md:ml-40  lg:ml-60;
+}

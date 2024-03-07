@@ -1,0 +1,22 @@
+.border-right-bottom {
+  @apply border-r-4 border-b-4 border-b-stone-300 border-r-stone-300;
+}
+
+.border-bottom {
+  @apply border-b-4 border-b-stone-300;
+}
+
+.border-right {
+  @apply border-r-4 border-r-stone-300;
+}
+
+.squareContainer {
+  @apply w-100 h-100 box-border flex justify-center items-center text-8xl font-bold hover:bg-slate-600 hover:bg-opacity-10;
+}
+
+.x-color {
+  @apply text-emerald-300;
+}
+.y-color {
+  @apply text-purple-400;
+}
